@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++",
+            "type": "process",
+            "command": "g++",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g3",
+                "lab10_3.cpp",
+                "-o",
+                "output/lab10_3.exe"
+            ],
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
